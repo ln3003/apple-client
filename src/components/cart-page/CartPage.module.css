@@ -1,0 +1,115 @@
+.cart-page {
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+  color: rgb(56, 56, 56);
+}
+.cart-page h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.cart-page-top {
+  height: 200px;
+  background-color: rgb(248, 249, 250);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+  font-style: italic;
+  color: rgb(155, 155, 155);
+}
+.cart-page-top h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: rgb(56, 56, 56);
+}
+.cart-page-mid {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.cart-page-mid .table {
+  width: 70%;
+}
+.cart-page-mid .sum {
+  width: 30%;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.table table {
+  width: 100%;
+  font-style: italic;
+  border-collapse: collapse;
+}
+.table thead {
+  background-color: rgb(248, 249, 250);
+}
+
+.table th {
+  padding: 10px;
+}
+.table .checkout {
+  background-color: rgb(248, 249, 250);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: italic;
+}
+.table .checkout p {
+  cursor: pointer;
+}
+.table .checkout .btn {
+  border: 1px solid rgb(56, 56, 56);
+  padding: 5px 20px;
+}
+
+.sum {
+  padding: 30px;
+  font-style: italic;
+  color: rgb(56, 56, 56);
+  background-color: rgb(248, 249, 250);
+}
+.sum h3 {
+  margin: 0;
+}
+.sum .subtotal {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(155, 155, 155);
+  font-weight: bold;
+}
+.sum .subtotal .p2 {
+  font-weight: normal;
+  color: rgb(155, 155, 155);
+}
+.sum .total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+.sum .total .p2 {
+  font-weight: normal;
+  font-size: 20px;
+}
+.sum .coupon {
+  display: flex;
+  flex-direction: column;
+}
+.sum .coupon input {
+  padding: 10px;
+  border: 1px solid rgb(155, 155, 155);
+  color: rgb(155, 155, 155);
+  outline: none;
+}
+.sum .coupon button {
+  padding: 10px 0;
+  background-color: rgb(56, 56, 56);
+  color: rgb(214, 222, 228);
+  border: 0;
+}

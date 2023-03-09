@@ -1,0 +1,49 @@
+.checkout {
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+  color: rgb(56, 56, 56);
+  margin-bottom: 50px;
+}
+.checkout h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.checkout-top {
+  height: 200px;
+  background-color: rgb(248, 249, 250);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  font-style: italic;
+}
+.checkout-top h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: rgb(56, 56, 56);
+}
+.checkout-top p {
+  color: rgb(155, 155, 155);
+}
+.checkout-top p span {
+  color: rgb(56, 56, 56);
+  font-weight: 500;
+}
+table {
+  text-align: center;
+  border-collapse: collapse;
+}
+table thead {
+  background-color: rgb(248, 249, 250);
+}
+table thead th {
+  padding: 10px;
+}
+table tbody td {
+  padding: 10px;
+}
+table tbody td button {
+  background-color: transparent;
+}

@@ -1,0 +1,26 @@
+.product-item {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: italic;
+}
+.product-item img {
+  width: 100%;
+  margin-bottom: 20px;
+  transition: opacity 0.5s;
+}
+.product-item img:hover {
+  opacity: 50%;
+}
+
+.product-item .product-item-name {
+  text-align: center;
+  color: rgb(56, 56, 56);
+  font-weight: 600;
+  margin: 0;
+}
+
+.product-item .product-item-price {
+  color: rgb(157, 164, 170);
+}

@@ -1,0 +1,40 @@
+.banner {
+  position: relative;
+}
+.banner img {
+  width: 100%;
+}
+.text {
+  position: absolute;
+  font-style: italic;
+  top: 100px;
+  left: 50px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.p1 {
+  margin: 0;
+  color: rgb(157, 164, 170);
+}
+.p2 {
+  font-size: 35px;
+  font-weight: 400;
+  margin: 0;
+}
+.text button {
+  padding: 10px 20px;
+  background-color: rgb(56, 56, 56);
+  color: rgb(155, 155, 155);
+  align-self: flex-start;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  border: 0;
+}
+.text button:hover {
+  background-color: black;
+}

@@ -1,0 +1,32 @@
+.categories {
+  height: 800px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: italic;
+}
+.categories p {
+  margin: 0;
+  color: rgb(157, 164, 170);
+}
+.categories h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  color: rgb(56, 56, 56);
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 30px;
+  justify-content: space-between;
+}
+.images img {
+  transition: opacity 0.5s;
+}
+.images img:hover {
+  opacity: 50%;
+}

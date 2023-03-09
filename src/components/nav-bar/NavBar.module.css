@@ -1,0 +1,38 @@
+.nav-bar {
+  height: 50px;
+  background-color: white;
+  color: rgb(39, 28, 41);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-style: italic;
+}
+.nav-bar p {
+  cursor: pointer;
+}
+.nav-bar p.active {
+  color: rgb(227, 178, 86);
+}
+.nav-bar h1 {
+  font-weight: 400;
+}
+
+.nav-bar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.nav-bar-right {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding-right: 10px;
+}
+.cart {
+  padding-right: 10px;
+}
+.nav-icon {
+  color: rgb(170, 170, 170);
+}

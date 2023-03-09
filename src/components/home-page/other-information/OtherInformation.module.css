@@ -1,0 +1,42 @@
+.other-information {
+  font-style: italic;
+  margin-top: 50px;
+}
+.other-information p {
+  margin: 0;
+}
+.other-information-top {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  background-color: rgb(248, 249, 250);
+  color: rgb(157, 164, 170);
+}
+.other-information-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  color: rgb(157, 164, 170);
+}
+.other-information-bottom input {
+  padding: 20px 30px;
+  width: 400px;
+  border: 1px solid rgb(157, 164, 170);
+  color: rgb(157, 164, 170);
+  font-size: 16px;
+  outline: none;
+}
+.other-information-bottom button {
+  background-color: rgb(56, 56, 56);
+  color: rgb(157, 164, 170);
+  padding: 20px 30px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.text1 {
+  font-size: 26px;
+  font-weight: 600;
+  color: rgb(56, 56, 56);
+  margin: 0;
+}

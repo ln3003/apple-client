@@ -1,0 +1,11 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(214, 222, 228);
+  color: rgb(155, 155, 155);
+}
+.item .item-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(56, 56, 56);
+}

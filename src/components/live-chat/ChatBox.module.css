@@ -1,0 +1,108 @@
+.chat-box {
+  background-color: white;
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  width: 400px;
+  height: 500px;
+  max-height: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.17);
+  opacity: 100%;
+  transform: scale3d(100%, 100%, 100%) rotateZ(0deg);
+  animation-name: show;
+  animation-duration: 1s;
+  cursor: default;
+}
+@keyframes show {
+  from {
+    opacity: 0%;
+    transform: scale3d(0%, 0%, 0%) rotateZ(360deg);
+  }
+  to {
+    opacity: 100%;
+    transform: scale3d(100%, 100%, 100%) rotateZ(0deg);
+  }
+}
+.chat-box img {
+  width: 50px;
+  border-radius: 50%;
+}
+.chat-box-bottom {
+  border-radius: 0 0 10px 10px;
+  background-color: rgb(248, 249, 250);
+  color: rgb(157, 164, 170);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  padding: 10px;
+  border-top: 1px solid rgb(214, 222, 228);
+}
+.chat-box-bottom input {
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid rgb(214, 222, 228);
+  color: rgb(157, 164, 170);
+  font-size: 16px;
+}
+.chat-box-top {
+  border-radius: 10px 10px 0 0;
+  background-color: rgb(248, 249, 250);
+  color: rgb(56, 56, 56);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 0 10px;
+  border-bottom: 1px solid rgb(214, 222, 228);
+}
+.chat-box-top p {
+  background-color: rgb(215, 215, 215);
+  color: rgb(133, 133, 133);
+  padding: 5px 10px;
+  font-style: italic;
+  margin: 0;
+}
+.chat-box-top h3 {
+  margin: 10px 0;
+}
+.chat-box-mid {
+  flex-grow: 1;
+  max-height: 400px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 20px;
+  padding: 10px;
+  gap: 10px;
+}
+.chat-box-mid::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.chat-box-mid p {
+  background-color: rgb(57, 113, 236);
+  color: rgb(238, 242, 245);
+  font-style: italic;
+  align-self: flex-end;
+  margin: 0;
+  padding: 5px 10px;
+}
+.support {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.support p {
+  align-self: flex-start;
+  background-color: rgb(235, 240, 244);
+  color: rgb(174, 174, 174);
+}
+.send {
+  color: rgb(57, 113, 236);
+}

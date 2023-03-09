@@ -1,0 +1,16 @@
+.live-chat {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  color: blue;
+  font-size: 32px;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.live-chat .icon {
+  transition: transform 0.5s;
+}
+.live-chat .icon:hover {
+  transform: scale(150%);
+}

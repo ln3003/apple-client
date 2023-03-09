@@ -1,0 +1,103 @@
+.centerbox {
+  display: flex;
+  font-style: italic;
+  align-items: center;
+}
+.color {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
+.centerbox .color img {
+  width: 100%;
+}
+.centerbox img {
+  width: 40%;
+}
+.centerbox button {
+  padding: 11px 20px;
+  background-color: rgb(56, 56, 56);
+  color: rgb(214, 222, 228);
+  border: 0;
+  font-style: italic;
+  font-weight: 16px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.centerbox button:hover {
+  background-color: black;
+}
+.centerbox input {
+  padding: 10px 20px;
+}
+.quantity {
+  display: inline-block;
+  position: relative;
+}
+.quantity input {
+  border: 1px solid rgb(155, 155, 155);
+  color: rgb(155, 155, 155);
+}
+.arrow {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  display: flex;
+  gap: 5px;
+  font-style: normal;
+  color: rgb(56, 56, 56);
+}
+.arrow span {
+  cursor: pointer;
+}
+.infomation {
+  align-self: flex-start;
+  width: 50%;
+  padding: 30px;
+}
+.infomation-name {
+  font-size: 32px;
+  font-weight: 500;
+  color: rgb(56, 56, 56);
+  margin: 0;
+}
+.infomation-price {
+  color: rgb(155, 155, 155);
+  font-size: 24px;
+  margin: 0;
+}
+.infomation-desc {
+  color: rgb(155, 155, 155);
+}
+.infomation-category {
+  color: rgb(56, 56, 56);
+  font-weight: bold;
+}
+.infomation-category span {
+  color: rgb(155, 155, 155);
+  font-weight: 400;
+}
+.description {
+  margin: 30px 0;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: rgb(56, 56, 56);
+}
+.description h2 {
+  font-weight: 500;
+}
+.long-desc {
+  color: rgb(155, 155, 155);
+  white-space: pre;
+}
+.description-title {
+  padding: 10px 20px;
+  background-color: rgb(56, 56, 56);
+  color: rgb(214, 222, 228);
+}
+.related-products {
+  display: flex;
+  gap: 10px;
+}

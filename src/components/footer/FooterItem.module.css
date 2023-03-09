@@ -1,0 +1,19 @@
+.footer-item {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+  font-weight: normal;
+  gap: 10px;
+}
+.footer-item h2 {
+  font-weight: 400;
+}
+.footer-item a {
+  color: rgb(76, 76, 76);
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.footer-item a:hover {
+  color: white;
+}
